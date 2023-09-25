@@ -1,0 +1,37 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore environment-related files (e.g., virtual environment)
+venv/
+.env
+
+# Ignore IDE and code editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# Ignore migration files (can be generated on each developer's machine)
+**/migrations/*.py
+**/migrations/*.db
+
+# Ignore compiled files and build artifacts
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+*.db
